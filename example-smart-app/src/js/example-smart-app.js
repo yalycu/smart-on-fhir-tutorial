@@ -60,7 +60,7 @@
 
           p.hdl = getQuantityValueAndUnit(hdl[0]);
           p.ldl = getQuantityValueAndUnit(ldl[0]);
-          p.co2 = co2;
+          p.co2 = getQuantityValueAndUnit(co2[0]);
 
           ret.resolve(p);
         });
